@@ -133,3 +133,6 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+import os
+os.system("heroku config:set DISABLE_COLLECTSTATIC=1")
