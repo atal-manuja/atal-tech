@@ -1,0 +1,1 @@
+web: gunicorn atal_tech_apis.wsgi
